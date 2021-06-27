@@ -1,0 +1,76 @@
+html{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gridPage{
+    float: center;
+}
+
+.square{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.gridPage{
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+}
+
+.colour{
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.rubber{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.rubber:hover{
+    background-color: rgb(224, 206, 206);
+    color: black;
+}
+
+
+.paint{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.paint:hover{
+    background-color: rgb(224, 206, 206);
+    color: black;
+}
+
+.reset{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.reset:hover{
+    background-color: rgb(224, 206, 206);
+    color: black;
+}
